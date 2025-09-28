@@ -1,3 +1,5 @@
+/* okej så, HTML-validate verkar verkligen inte gilla inline styles eller table tags som tr, th och td. samt så är det mesta här säkert lite fel men det var för att jag ba' "ah en till uppgift" kollade på bilden och började försöka kopiera den istället för att läsa igenom w3chools webbsidorna som var länkade, sorry.*/
+
 body{
     background-image:url(./img/winter-snow.jpg);
 }
@@ -8,19 +10,18 @@ body{
     border-color: black;
     display:flex;
     flex-direction: row;
-    justify-content: center;
     justify-content: space-between;
-    font-family: 'HussarBoldWeb';
 }
 
 h1{
     color:aliceblue;
     background-color:dimgray;
+    font-family: 'ADLaM Display';
 }
 
 .ledig{
     color:aliceblue;
-    background-color:darkslategray;
+    background-color:dimgray;
     border: solid;
     border-width: 1px;
     border-color: yellow;
@@ -28,6 +29,7 @@ h1{
     margin-left:35%;
     margin-right:35%;
     padding-right:13%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 ul{
@@ -61,7 +63,7 @@ border-collapse:collapse;
 text-align:center;
 }
 
-th{
+tr,th{
 border:solid;
     border-color:red;
   background-color: lightgray;  
@@ -71,6 +73,7 @@ td{
     border:solid;
     border-color:red;
 background-color:beige;
+font-family:'ADlaM Display';
 }
 
 .img{
@@ -79,8 +82,7 @@ border:solid;
 border-color:black;
 border-width:5px;
 margin-left:30%;
-margin-right:27%;
-
+margin-right:30%;
      display:flex;
     flex-direction:row;
     justify-content:center;
